@@ -1,5 +1,8 @@
 # rxing-wasm
-WASM bindings for common rxing functions. The NPM link is [https://www.npmjs.com/package/rxing-wasm](https://www.npmjs.com/package/rxing-wasm) and the rust source is [https://github.com/rxing-core/rxing-wasm](https://github.com/hschimke/rxing-wasm).
+
+WASM bindings for common rxing functions. The NPM link is [https://www.npmjs.com/package/@deviceflow/rxing-wasm](https://www.npmjs.com/package/#deviceflow/rxing-wasm) and the rust source is [https://github.com/deviceflow/rxing-wasm](https://github.com/deviceflow/rxing-wasm).
+
+This fork is identical to the [upstream package](https://github.com/rxing-core/rxing-wasm), except `wasm-pack` is invoked with the `--web` flag.
 
 ## Decode Multi Breaking Change with v0.3.0
 Version `0.3.0` now returns `BarcodeResult` objects in a native javascript array. This fully deprecates the old method
